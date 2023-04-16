@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dead End</title>
+	  <link rel = "stylesheet" href = "cluecss.css">
+    </head>
+
+    <style>
+    	  body {
+  	  background-image: url('C:/Users/sharmila/OneDrive/Desktop/images/bg1.jpg');
+ 	  background-repeat: no-repeat;
+ 	  background-attachment: fixed;
+	  background-size: 100% 100%;
+	  
+    }
+    </style>
+    <style>
+    img {
+     display: block;
+     margin-left: auto;
+      margin-right: auto;
+   }
+   
+   </style>
+   .div-wrapper {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.div-wrapper img {
+    position: absolute;
+    left: 0;
+    bottom: 500;
+}
+<div class="div-wrapper">
+    <img src="blah.png"/>
+</div>
+  
+       <img src="C:/Users/sharmila/OneDrive/Desktop/images/d1.gif" alt="Paris" style="width:90% height:10%;">
+        <p style="color:pink;">Oops!!!! It's a Dead End....You have choosed a wrong option..click on back button...To come out of the dead end....
+        
+        </p>
+        <div>
+     <button id="sh" type="button">Back</button>
+	</div>
+	
+
+    </body>
+
+	<script>
+	document.getElementById("sh").addEventListener("click", checkright);
+    function checkright() {
+  
+  window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/round1.html";
+  }
+    
+     
+</script>
+    </html>
