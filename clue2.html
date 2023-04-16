@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jungle Puzzle</title>
+	  <link rel = "stylesheet" href = "cluecss.css">
+    </head>
+
+    <style>
+    	  body {
+  	  background-image: url('C:/Users/sharmila/OneDrive/Desktop/images/bg1.jpg');
+ 	  background-repeat: no-repeat;
+ 	  background-attachment: fixed;
+	  background-size: 100% 100%;
+    }
+    </style>
+    <body>
+    
+        <br>
+<h2 style="color:pink;">"Hey Riddle master!!! Congratulations for clearing your puzzle....Here is your clues for the next round..."
+
+</p>
+<div>
+<label id="minutes">00</label>
+<label id="colon">:</label>
+<label id="seconds">00</label>
+<style>
+#seconds {
+  font-size: 3em;
+  color:white;
+  }
+
+#minutes {
+  font-size: 3em;
+   color:white;
+}
+#colon {
+  font-size: 3em;
+   color:white;
+}
+</style>
+<script type="text/javascript">
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        setInterval(setTime, 1000);
+
+        function setTime()
+        {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds%60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds/60));
+        }
+
+        function pad(val)
+        {
+            var valString = val + "";
+            if(valString.length < 2)
+            {
+                return "0" + valString;
+            }
+            else
+            {
+                return valString;
+            }
+        }
+    </script>
+
+
+</div>
+
+	<style>
+	 div {
+	  border: 1px solid black;
+  	  margin-top: 160px;
+  	  margin-bottom: 100px;
+  	  margin-right: 150px;
+  	  margin-left: 80px;
+	 }
+	
+	
+	</style>
+	<style>
+.button {
+  border: 0.25px solid black;
+  	  margin-top: 20px;
+  	  margin-bottom: 100px;
+  	  margin-right: 150px;
+  	  margin-left: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+</style>
+	<div>
+	<h1 style="color:white;">  <b> I have a mane but I’m not a lion and I wear my shoes to bed. What am I?<b></h1>
+	</div>
+
+   <button class = "button", id="b1">
+   <img width="80" height="60" src="C:/Users/sharmila/OneDrive/Desktop/images/b7.png" alt="animal">
+	
+   </button>
+
+   <button class = "button", id="b2">
+   <img width="80" height="60" src="C:/Users/sharmila/OneDrive/Desktop/images/b9.png" alt="animal">
+   </button>
+
+	<button class = "button", id="b3">
+   	<img width="80" height="60" src= "C:/Users/sharmila/OneDrive/Desktop/images/b8.png" alt="animal">
+   	</button>
+
+<script>
+document.getElementById("b1").addEventListener("click", checkright);
+    function checkright() {
+   
+  
+  window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/clue3.html";
+    }
+    
+     
+</script>
+<script>
+document.getElementById("b2").addEventListener("click", checkright);
+    function checkright() {
+   
+  
+  window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/deadend1.html";
+    }  
+</script>
+<script>
+document.getElementById("b3").addEventListener("click", checkright);
+    function checkright() {
+   
+  
+  window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/deadend1.html";
+    }  
+</script>
+
+
+        
+    </body>
+
+</html>
+
