@@ -11,20 +11,20 @@ Project Description:
  
 Getting Started:
 Dependencies
- > It runs on windows,linux OS.
- > You can run it on any of the browsers like Google,Microsoft edge etc..
+  It runs on windows,linux OS.
+  You can run it on any of the browsers like Google,Microsoft edge etc..
  
   Featueres:
-  > It has 5 clues and 2 puzzles
-  > it has 2 DeadEnd for each clue
-  >There is only one solution to finish the game.
-  > A dashboard is displayed for the admin to know about the users progress.
-  > Languages used are html, js and css
-  > for backend purpose I used JSON architecture.
+   It has 5 clues and 2 puzzles.
+   It has 2 DeadEnd for each clue.
+   There is only one solution to finish the game.
+   A dashboard is displayed for the admin to know about the users progress.
+   Languages used are html, js and css.
+   For backend purpose I used JSON architecture.
   
   Additional Features:
-  >It has a timer that calculate users score
-  >Leaderboard is also given to the user.
+  It has a timer that calculate users score
+  Leaderboard is also given to the user.
   
  
  
