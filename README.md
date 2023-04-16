@@ -24,7 +24,7 @@ Dependencies
   
   Additional Features:
   It has a timer that calculate users score
-  Leaderboard is also given to the user.
+   and Leaderboard is also given to the user.
   
  
  
