@@ -16,7 +16,7 @@ window.onload = function() {
     for (let c = 0; c < columns; c++) {
         for (let r = 0; r < rows; r++) {
             let tile = document.createElement("img");
-            tile.src = "C:/Users/sharmila/OneDrive/Desktop/images/blank.jpg";
+            tile.src = "blank.jpg";
 		tile.val = r*rows + c + 1;
             tile.addEventListener("dragstart", dragStart); 
             tile.addEventListener("dragover", dragOver);   
@@ -30,7 +30,7 @@ window.onload = function() {
     }
     
     let tile = document.createElement("img");
-    tile.src = "C:/Users/sharmila/OneDrive/Desktop/images/32851.jpg";
+    tile.src = "32851.jpg";
     document.getElementById("board2").append(tile);
 
     let pieces = [];
@@ -42,7 +42,7 @@ window.onload = function() {
 
     for (let i = 0; i < pieces.length; i++) {
         let tile = document.createElement("img");
-        tile.src = "C:/Users/sharmila/OneDrive/Desktop/images/" + pieces[i] + ".jpg";
+        tile.src = "" + pieces[i] + ".jpg";
 	  tile.val = pieces[i];
 
         tile.addEventListener("dragstart", dragStart); 
@@ -103,6 +103,6 @@ function checkright () {
 		isSolved = true;
 	}
 	if (isSolved) {
-		window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/clue2.html";
+		window.location.href ="clue2.html";
 	}	
 }
