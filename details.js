@@ -29,7 +29,7 @@ for (const user in userLoginDetails) {
 }
 
 if (foundUser) {
-  window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/int.html";
+  window.location.href = "index.html";
 } 
 else {
   console.log('User not found');
