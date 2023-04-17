@@ -15,7 +15,7 @@ function started () {
 	starthours = currentTime.getHours();
 	startminutes = currentTime.getMinutes();
 	startseconds = currentTime.getSeconds();
-	window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/round1.html";
+	window.location.href = "round1.html";
 	flag = flag + 1;
 
 }
@@ -30,7 +30,7 @@ function ended () {
 	endhours = currentTime.getHours();
 	endminutes = currentTime.getMinutes();
 	endseconds = currentTime.getSeconds();
-	window.location.href = "C:/Users/sharmila/OneDrive/Desktop/elitmus/score.html";
+	window.location.href = "score.html";
 	flag = flag + 1;
 
 }
