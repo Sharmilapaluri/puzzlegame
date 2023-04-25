@@ -29,7 +29,7 @@ for (const user in userLoginDetails) {
 }
 
 if (foundUser) {
-  window.location.href = "index.html";
+  window.location.href = "home.html";
 } 
 else {
   console.log('User not found');
